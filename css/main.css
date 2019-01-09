@@ -1,0 +1,132 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* The header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.logo img {
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.headerInfo {
+  font-family: sans-serif;
+  color: #424242;
+}
+
+.navigation{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* The Navigation bar */
+
+.main {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.main .navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #7d97ad;
+  padding: 10px;
+}
+
+/* The article of Section A */
+.article .section_a {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.article .section_a h1 {
+  font-size: 18px;
+}
+
+.article .section_a img {
+  max-width: 100%;
+}
+
+.article .section_b h1 {
+  font-size: 18px;
+}
+
+
+/* The article of Section C */
+.article .section_c .flex-hobbies{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.article .section_c .flex-hobbies .flex-item {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.article .section_c .flex-hobbies .flex-item figure{
+  margin: 0;
+  font-size: 12px;
+}
+
+/* This part is contact us */
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  display: inline-block;
+  color: #000;
+}
+
+
+#social {
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+#social a{
+  text-decoration: none;
+  color: #02b3e4;
+}
+
+.footer {
+  font-size: 11px;
+  align-content: center;
+}
+
+/* Browser */
+@media screen and (min-width: 1000px) {
+  .header, .main, .nav {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Nexus */
+@media screen and (max-width: 360px) {
+
+  #social {
+    font-size: 1em;
+    font-family: sans-serif;
+  }
+
+  .foot {
+    font-size: 11px;
+  }
+}
